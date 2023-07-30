@@ -23,10 +23,15 @@ body {
  background: #eee;
 }
 
+.main {
+ background: url(/img/main-bg.png);
+ padding-bottom: 240px;
+}
 .header {
- margin-top: 25px;
+ padding-top: 25px;
  display: flex;
  justify-content: space-between;
+ margin-bottom: 25px;
 }
 .logo {
  display: flex;
@@ -65,11 +70,27 @@ a:hover {
  color: #fff;
  background: #C4730A;
  padding: 10px 22px;
- margin-left: 32px;
  border: 2px solid #C4730A;
+}
+.btn-menu {
+ margin-left: 32px;
 }
 .btn:hover {
  color: #C4730A;
  background: transparent;
  border: 2px solid #C4730A;
+}
+.main-block-title {
+ margin-top: 145px;
+ font-size: 56px;
+ width: 570px;
+ line-height: 70px;
+ margin-bottom: 24px;
+}
+.main-block-subtitle {
+ font-size: 20px;
+ font-family: raleway-r, sans-serif;
+ width: 560px;
+ color: #612B00;
+ margin-bottom: 24px;
 }
