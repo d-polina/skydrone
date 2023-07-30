@@ -20,15 +20,16 @@ body {
  box-sizing: border-box;
  font-family: raleway-b, sans-serif;
  color: #393939;
- background: #eee;
+ background: #fff;
 }
 
 .main {
- background: url(/img/main-bg-drone.png);
+ background: url(/img/main-bg-drone.png) no-repeat;
  background-position: 10% 45%;
  padding-bottom: 240px;
  z-index: -5;
 }
+
 .main-bg-circle {
  width: 980px;
  height: 980px;
@@ -39,7 +40,14 @@ body {
  margin-left: -330px;
  z-index: 0;
  box-shadow: 1.2px 0.08px 15.8px 0px rgba(158, 158, 158, 0.04), 5.2px 0.3px 32.7px 0px rgba(158, 158, 158, 0.06), 12.9px 0.9px 65.3px 0px rgba(158, 158, 158, 0.08), 24.9px 1.75px 128px 0px rgba(158, 158, 158, 0.10), 42px 2.9px 235.4px 0px rgba(158, 158, 158, 0.12), 64.8px 4.5px 402px 0px rgba(158, 158, 158, 0.16);
-
+}
+.main-bg-rectangle {
+ background: #fff;
+ width: 500px;
+ height: 760px;
+ position: absolute;
+ margin-left: -500px;
+ margin-top: -520px;
 }
 .header {
  z-index: 1;
@@ -93,8 +101,11 @@ a:hover {
 }
 .btn:hover {
  color: #C4730A;
- background: transparent;
+ background: #fff;
  border: 2px solid #C4730A;
+}
+.btn-menu:hover {
+ background: transparent;
 }
 .main-block {
  z-index: 1;
@@ -114,3 +125,73 @@ a:hover {
  color: #612B00;
  margin-bottom: 24px;
 }
+
+/* @media (min-width: 576px) { 
+ .main-bg-circle {
+  display: none;
+ }
+ .main-bg-rectangle {
+  display: none;
+ }
+ .main-block {
+  text-align: center;
+ }
+ } */
+
+@media (min-width: 768px) { 
+ .main-bg-circle {
+  display: none;
+ }
+ .main-bg-rectangle {
+  display: none;
+ }
+ .main {
+  background-position: 30% 45%;
+ }
+ }
+
+@media (min-width: 992px) {  
+ .main-block-title {
+  font-size: 46px;
+  line-height: 55px;
+ }
+ .main-block-subtitle {
+  font-size: 18px;
+  width: 500px;
+ }
+ .main-bg-circle {
+  margin-left: -460px;
+ }
+ .main {
+  background-position: 55% 45%;
+ }
+ .main-bg-circle {
+  display: block;
+ }
+ .main-bg-rectangle {
+  display: block;
+ }
+}
+
+@media (min-width: 1200px) { 
+ .main-block-title {
+  font-size: 56px;
+  line-height: 70px;
+ }
+ .main-block-subtitle {
+  font-size: 20px;
+  width: 560px;
+ }
+ .main {
+  background-position: 30% 45%;
+ }
+ .main-bg-circle {
+  margin-left: -330px;
+ }
+ }
+
+@media (min-width: 1400px) { 
+ .main {
+  background-position: 50% 45%;
+ }
+ }
