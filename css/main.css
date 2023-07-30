@@ -24,16 +24,32 @@ body {
 }
 
 .main {
- background: url(/img/main-bg.png);
+ background: url(/img/main-bg-drone.png);
+ background-position: 10% 45%;
  padding-bottom: 240px;
+ z-index: -5;
+}
+.main-bg-circle {
+ width: 980px;
+ height: 980px;
+ background: #fff;
+ border-radius: 50%;
+ position: absolute;
+ margin-top: -650px;
+ margin-left: -330px;
+ z-index: 0;
+ box-shadow: 1.2px 0.08px 15.8px 0px rgba(158, 158, 158, 0.04), 5.2px 0.3px 32.7px 0px rgba(158, 158, 158, 0.06), 12.9px 0.9px 65.3px 0px rgba(158, 158, 158, 0.08), 24.9px 1.75px 128px 0px rgba(158, 158, 158, 0.10), 42px 2.9px 235.4px 0px rgba(158, 158, 158, 0.12), 64.8px 4.5px 402px 0px rgba(158, 158, 158, 0.16);
+
 }
 .header {
+ z-index: 1;
  padding-top: 25px;
  display: flex;
  justify-content: space-between;
  margin-bottom: 25px;
 }
 .logo {
+ z-index: 1;
  display: flex;
  align-items: baseline;
 }
@@ -79,6 +95,10 @@ a:hover {
  color: #C4730A;
  background: transparent;
  border: 2px solid #C4730A;
+}
+.main-block {
+ z-index: 1;
+ position: relative;
 }
 .main-block-title {
  margin-top: 145px;
