@@ -1,0 +1,75 @@
+
+@font-face {
+ font-family: roboto-m;
+ src: url(/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+ font-family: roboto-r;
+ src: url(/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+ font-family: raleway-b;
+ src: url(/fonts/Raleway-Bold.ttf);
+}
+@font-face {
+ font-family: raleway-r;
+ src: url(/fonts/Raleway-Regular.ttf);
+}
+
+body {
+ box-sizing: border-box;
+ font-family: raleway-b, sans-serif;
+ color: #393939;
+ background: #eee;
+}
+
+.header {
+ margin-top: 25px;
+ display: flex;
+ justify-content: space-between;
+}
+.logo {
+ display: flex;
+ align-items: baseline;
+}
+.logo-img {
+ height: 22px;
+ width: 22px;
+ background: url(/img/logo-img.png);
+}
+.logo-text {
+ font-size: 30px;
+ margin-left: 4px;
+}
+.menu {
+ display: flex;
+ font-size: 16px;
+ align-items: baseline;
+ float: right;
+}
+.menu-links {
+ display: flex;
+ font-family: raleway-r, sans-serif;
+}
+.menu-link {
+ margin-left: 32px;
+}
+a {
+ text-decoration: none;
+ color: #393939;
+}
+a:hover {
+ color: #C4730A;
+}
+.btn {
+ color: #fff;
+ background: #C4730A;
+ padding: 10px 22px;
+ margin-left: 32px;
+ border: 2px solid #C4730A;
+}
+.btn:hover {
+ color: #C4730A;
+ background: transparent;
+ border: 2px solid #C4730A;
+}
