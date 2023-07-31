@@ -229,44 +229,43 @@ input[type="checkbox"]:checked ~ .popup {
 .companies-row {
   display: flex;
   justify-content: space-around;
-  
 }
 .companies-row-img {
   margin-top: 75px;
   margin-bottom: 75px;
 }
 .companies-row-img-remix {
-  background: url(/img/companies/remix.png);
+  background: url(/img/companies/remix.png) no-repeat;
   height: 37px;
   width: 147px;
 }
 .companies-row-img-stencil {
-  background: url(/img/companies/stencil.png);
+  background: url(/img/companies/stencil.png) no-repeat;
   height: 38px;
   width: 185px;
 }
 .companies-row-img-mparticle {
-  background: url(/img/companies/mparticle.png);
+  background: url(/img/companies/mparticle.png) no-repeat;
   height: 40px;
   width: 185px;
 }
 .companies-row-img-shippable {
-  background: url(/img/companies/shippable.png);
+  background: url(/img/companies/shippable.png) no-repeat;
   height: 43px;
   width: 185px;
 }
 .companies-row-img-atom {
-  background: url(/img/companies/atom.png);
+  background: url(/img/companies/atom.png) no-repeat;
   height: 40px;
   width: 185px;
 }
 .companies-row-img-terraform {
-  background: url(/img/companies/terraform.png);
+  background: url(/img/companies/terraform.png) no-repeat;
   height: 45px;
   width: 185px;
 }
 .companies-row-img-rackspace {
-  background: url(/img/companies/rackspace.png);
+  background: url(/img/companies/rackspace.png) no-repeat;
   height: 37px;
   width: 185px;
 }
@@ -332,6 +331,20 @@ input[type="checkbox"]:checked ~ .popup {
  .popup .menu-link {
   font-size: 16px;
  }
+ .companies-row {
+  flex-direction: column;
+  align-items: center;
+ }
+ .companies-title {
+  font-size: 16px;
+  padding-top: 64px;
+ }
+ .companies-row-img {
+  margin-top: 0;
+ }
+ .companies {
+  padding-bottom: 0;
+ }
 }
 
 @media (min-width: 576px) { 
@@ -361,7 +374,7 @@ input[type="checkbox"]:checked ~ .popup {
  .logo-img {
   height: 22px;
   width: 22px;
-  background: url(/img/logo-img.png);
+  background: url(/img/logo-img.png) no-repeat;
  }
  .logo-text {
   font-size: 30px;
@@ -369,6 +382,13 @@ input[type="checkbox"]:checked ~ .popup {
  .popup .menu-link {
   font-size: 18px;
  }
+ .companies-title {
+  font-size: 24px;
+  /* padding-top: 128px; */
+ }
+ /* .companies-row-img {
+  margin-top: 70px;
+ } */
  }
 
 @media (min-width: 768px) { 
@@ -395,6 +415,21 @@ input[type="checkbox"]:checked ~ .popup {
  }
  .checkbox {
   display: none;
+ }
+ .companies-row {
+  flex-wrap: wrap;
+  align-items: normal;
+  flex-direction: row;
+ }
+ .companies-rows {
+  justify-content: space-between;
+ }
+ .companies-title {
+  /* font-size: 24px; */
+  padding-top: 128px;
+ }
+ .companies-row-img {
+  margin-top: 70px;
  }
  }
 
