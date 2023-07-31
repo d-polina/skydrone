@@ -168,7 +168,7 @@ a:hover {
  right: 0;
  margin-right: -180px;
  z-index: 5;
- opacity: 50%;
+ opacity: 0%;
  cursor: pointer;
 }
 
@@ -272,6 +272,9 @@ input[type="checkbox"]:checked ~ .popup {
  .menu-burger-line {
   height: 2px;
  }
+ .popup .menu-link {
+  font-size: 16px;
+ }
 }
 
 @media (min-width: 576px) { 
@@ -305,6 +308,9 @@ input[type="checkbox"]:checked ~ .popup {
  }
  .logo-text {
   font-size: 30px;
+ }
+ .popup .menu-link {
+  font-size: 18px;
  }
  }
 
