@@ -214,6 +214,63 @@ input[type="checkbox"]:checked ~ .popup {
  margin-top: 20px;
 }
 
+.companies {
+  background: #fff;
+  z-index: 0;
+  position: relative;
+  padding-bottom: 128px;
+}
+.companies-title {
+  padding-top: 128px;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 48px;
+}
+.companies-row {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.companies-row-img {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.companies-row-img-remix {
+  background: url(/img/companies/remix.png);
+  height: 37px;
+  width: 147px;
+}
+.companies-row-img-stencil {
+  background: url(/img/companies/stencil.png);
+  height: 38px;
+  width: 185px;
+}
+.companies-row-img-mparticle {
+  background: url(/img/companies/mparticle.png);
+  height: 40px;
+  width: 185px;
+}
+.companies-row-img-shippable {
+  background: url(/img/companies/shippable.png);
+  height: 43px;
+  width: 185px;
+}
+.companies-row-img-atom {
+  background: url(/img/companies/atom.png);
+  height: 40px;
+  width: 185px;
+}
+.companies-row-img-terraform {
+  background: url(/img/companies/terraform.png);
+  height: 45px;
+  width: 185px;
+}
+.companies-row-img-rackspace {
+  background: url(/img/companies/rackspace.png);
+  height: 37px;
+  width: 185px;
+}
+
 @media (min-width: 300px) {
  .main {
   padding-bottom: 125px;
