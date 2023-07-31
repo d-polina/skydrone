@@ -167,7 +167,7 @@ a:hover {
  right: 0;
  margin-right: -180px;
  z-index: 5;
- opacity: 0%;
+ opacity: 50%;
  cursor: pointer;
 }
 
@@ -180,11 +180,11 @@ input[type="checkbox"]:checked ~ .menu-burger .line2 {
 input[type="checkbox"]:checked ~ .menu-burger .line3 {
  transform: rotate(-45deg);
 }
-/* input[type="checkbox"]:checked ~ .logo{
- display: none;
-} */
 
-@media (min-width: 576px) { 
+@media (min-width: 300px) {
+ .main {
+  padding-bottom: 125px;
+ }
  .main-bg-circle {
   display: none;
  }
@@ -201,10 +201,75 @@ input[type="checkbox"]:checked ~ .menu-burger .line3 {
   display: none;
  }
  .main-block-title {
-  width: 540px;
+  width: 280px;
+  font-size: 27px;
+  line-height: 40px;
+  margin-left: -140px;
+  position: relative;
+  left: 50%;
+  margin-top: 70px;
  }
  .main-block-subtitle {
-  width: 540px;
+  width: 275px;
+  font-size: 16px;
+  position: relative;
+  margin-left: -140px;
+  left: 50%;
+ }
+ .checkbox {
+  width: 50px;
+  top: 20px;
+  position: absolute;
+  height: 50px;
+  margin-right: 10px;
+ }
+ .logo-img {
+  height: 14px;
+  width: 14px;
+  background: url(/img/logo-img-small.png);
+ }
+ .logo-text {
+  font-size: 18px;
+ }
+ .menu-burger {
+  width: 18px;
+  height: 14px;
+ }
+ .menu-burger-line {
+  height: 2px;
+ }
+}
+
+@media (min-width: 576px) { 
+ .main {
+  background-position: 12%;
+  padding-bottom: 240px;
+ }
+ .main-block-title {
+  width: 515px;
+  font-size: 46px;
+  line-height: 55px;
+  position: static;
+  margin-left: 0;
+  margin-top: 145px;
+ }
+ .main-block-subtitle {
+  width: 515px;
+  font-size: 18px;
+  position: static;
+  margin-left: 0;
+ }
+ .checkbox {
+  margin-right: -180px;
+  position: static;
+ }
+ .logo-img {
+  height: 22px;
+  width: 22px;
+  background: url(/img/logo-img.png);
+ }
+ .logo-text {
+  font-size: 30px;
  }
  }
 
@@ -218,11 +283,20 @@ input[type="checkbox"]:checked ~ .menu-burger .line3 {
  .main {
   background-position: 30% 45%;
  }
+ .main-block {
+  text-align: left;
+ }
  .menu-links {
   display: flex;
  }
  .btn-menu {
   display: block;
+ }
+ .menu-burger {
+  display: none;
+ }
+ .checkbox {
+  display: none;
  }
  }
 
