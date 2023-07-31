@@ -269,6 +269,25 @@ input[type="checkbox"]:checked ~ .popup {
   height: 37px;
   width: 185px;
 }
+.banner {
+  background: #F3F3F3;
+}
+.banner-ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: #5E5E5E;
+  font-size: 24px;
+  padding: 24px 0;
+  align-items: baseline;
+}
+.banner-circle {
+  background: #5E5E5E;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+
+}
 
 @media (min-width: 300px) {
  .main {
@@ -345,6 +364,9 @@ input[type="checkbox"]:checked ~ .popup {
  .companies {
   padding-bottom: 0;
  }
+ .banner {
+  display: none;
+ }
 }
 
 @media (min-width: 576px) { 
@@ -382,13 +404,13 @@ input[type="checkbox"]:checked ~ .popup {
  .popup .menu-link {
   font-size: 18px;
  }
+ .companies {
+  padding-bottom: 0px;
+ }
  .companies-title {
   font-size: 24px;
-  /* padding-top: 128px; */
  }
- /* .companies-row-img {
-  margin-top: 70px;
- } */
+ 
  }
 
 @media (min-width: 768px) { 
@@ -425,11 +447,23 @@ input[type="checkbox"]:checked ~ .popup {
   justify-content: space-between;
  }
  .companies-title {
-  /* font-size: 24px; */
   padding-top: 128px;
  }
  .companies-row-img {
   margin-top: 70px;
+ }
+ .companies {
+  padding-bottom: 80px;
+ }
+ .banner {
+  display: flex;
+ }
+ .banner-ul {
+  font-size: 18px;
+ }
+ .banner-circle {
+  width: 9px;
+  height: 9px;
  }
  }
 
@@ -453,6 +487,13 @@ input[type="checkbox"]:checked ~ .popup {
  }
  .main-bg-rectangle {
   display: block;
+ }
+ .banner-ul {
+  font-size: 24px;
+ }
+ .banner-circle {
+  width: 12px;
+  height: 12px;
  }
 }
 
