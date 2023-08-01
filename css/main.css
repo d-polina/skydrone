@@ -424,6 +424,49 @@ input[type="checkbox"]:checked ~ .popup {
  .banner {
   display: none;
  }
+ .modern-content {
+  flex-direction: column;
+  left: 50%;
+  margin-left: -140px;
+  position: relative;
+  width: 50%;
+ }
+ .modern-img {
+  width: 280px;
+  height: 310px;
+ }
+ .modern {
+  padding-top: 0;
+ }
+ .modern-block {
+  margin-left: 0;
+  width: 280px;
+  margin-bottom: 70px;
+ }
+ .modern-block-title-orange {
+  font-size: 16px;
+  margin-top: 60px;
+ }
+ .modern-block-title {
+  font-size: 28px;
+  line-height: 35px;
+ }
+ .modern-block-comments {
+  flex-direction: column;
+ }
+ .modern-block-comment {
+  width: 280px;
+  margin-left: 0;
+ }
+ .modern-block-comment-title {
+  font-size: 16px;
+ }
+ .modern-block-comment-circle {
+  margin-left: 5px;
+ }
+ .modern-block-comment-circle-second {
+  margin-left: 0;
+ }
 }
 
 @media (min-width: 576px) { 
@@ -468,6 +511,47 @@ input[type="checkbox"]:checked ~ .popup {
   font-size: 24px;
  }
  
+ .modern-img {
+  width: 520px;
+  height: 580px;
+ }
+ .modern-content {
+  width: 100%;
+  margin-left: 0;
+  left: 0;
+ }
+ .modern-block-comment {
+  width: 450px;
+  margin-left: 0;
+ }
+ .modern {
+  padding-top: 50px;
+ }
+ .modern-block {
+  margin-left: 0;
+  width: 540px;
+  margin-bottom: 120px;
+ }
+ .modern-block-comment-title {
+  font-size: 28px;
+ }
+ .modern-block-comment-subtitle {
+  font-size: 20px;
+ }
+ .modern-block-title-orange {
+  margin-top: 80px;
+  font-size: 24px;
+ }
+ .modern-block-title {
+  font-size: 48px;
+  line-height: 60px;
+ }
+ .modern-block-comment-circle {
+  margin-left: 5px;
+ }
+ .modern-block-comment-circle-second {
+  margin-left: 0;
+ }
  }
 
 @media (min-width: 768px) { 
@@ -522,6 +606,37 @@ input[type="checkbox"]:checked ~ .popup {
   width: 9px;
   height: 9px;
  }
+ 
+ .modern-img {
+  width: 696px;
+  height: 640px;
+ } 
+ .modern {
+  padding-top: 120px;
+ }
+ .modern-block-title-orange {
+  margin-top: 70px;
+ }
+ .modern-block {
+  margin-left: 60px;
+  margin-bottom: 100px;
+ }
+ .modern-block-comment {
+  margin-left: 24px;
+ }
+ .modern-block-comments {
+  flex-direction: row;
+ }
+ .modern-block-comment-first {
+  margin-left: 0;
+ }
+ .modern-block-comment-title {
+  font-size: 24px;
+ }
+ .modern-block-comment-subtitle {
+  font-size: 16px;
+  width: 280px;
+ }
  }
 
 @media (min-width: 992px) {  
@@ -552,6 +667,40 @@ input[type="checkbox"]:checked ~ .popup {
   width: 12px;
   height: 12px;
  }
+ .modern-content {
+  flex-direction: row;
+ }
+ .modern-block-comments {
+  flex-direction: column;
+ }
+ .modern-block-comment {
+  margin-left: 0;
+ }
+ .modern-block-title {
+  font-size: 38px;
+  line-height: 45px;
+ }
+ .modern-block-title-orange {
+  font-size: 22px;
+  margin-top: 0;
+ }
+ .modern-block-comment-circle {
+  margin-top: 40px;
+ }
+ .modern-block-comment-subtitle {
+  width: 310px;
+ }
+ .modern-img {
+  height: 480px;
+  width: 616px;
+ }
+ .modern-block {
+  margin-bottom: 100px;
+  margin-left: 80px;
+ }
+ .modern {
+  padding-top: 130px;
+ }
 }
 
 @media (min-width: 1200px) { 
@@ -569,10 +718,75 @@ input[type="checkbox"]:checked ~ .popup {
  .main-bg-circle {
   margin-left: -330px;
  }
+ .modern {
+  padding-top: 140px;
+ }
+ .modern-block {
+  width: 500px;
+  margin-left: 60px;
+ }
+ .modern-img {
+  height: 560px;
+  width: 500px;
+ }
+ .modern-block-comments {
+  flex-direction: row;
+ }
+ .modern-block-title-orange {
+  margin-top: 70px;
+ }
+ .modern-block-title {
+  font-size: 46px;
+  line-height: 55px;
+ }
+ .modern-block-comment-title {
+  font-size: 23px;
+ }
+ .modern-block-comment-subtitle {
+  width: 280px;
+ }
+ .modern-block-comment-circle {
+  margin-top: 45px;
+ }
+ .modern-block-comment {
+  margin-left: 24px;
+  /* width: 280px; */
+ }
+ .modern-block-comment-first {
+  margin-left: 0;
+ }
  }
 
 @media (min-width: 1400px) { 
  .main {
   background-position: 50% 45%;
+ }
+ .modern {
+  padding-top: 160px;
+ }
+ .modern-block {
+  width: 616px;
+  margin-left: 80px;
+ }
+ .modern-img {
+  height: 640px;
+  width: 616px;
+ }
+ .modern-block-title-orange {
+  font-size: 24px;
+  margin-top: 100px;
+ }
+ .modern-block-title {
+  font-size: 48px;
+  line-height: 60px;
+ }
+ .modern-block-comment-title {
+  font-size: 24px;
+ }
+ .modern-block-comment-circle {
+  margin-top: 56px;
+ }
+ .modern-block-comment-subtitle {
+  width: 300px;
  }
  }
