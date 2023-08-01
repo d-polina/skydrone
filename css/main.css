@@ -193,7 +193,6 @@ input[type="checkbox"]:checked ~ .popup {
  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
  transform: translate(-150%);
  flex-direction: column;
- /* margin-left: -115px; */
  left: 50%;
  margin-left: -50%;
  transition: transform 0.5s ease-in-out;
@@ -422,6 +421,46 @@ input[type="checkbox"]:checked ~ .popup {
   left: 50%;
   margin-left: -300px;
 }
+.download {
+  color: #FCF6F0;
+  background:  linear-gradient(137deg, #D48C04 0%, #B35911 100%);
+}
+.download-block {
+  padding: 64px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.download-block-title {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.download-block-subtitle {
+  font-size: 20px;
+  font-family: raleway-r, sans-serif;
+  width: 600px;
+}
+.download-block-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.download-block-btn-appstore {
+  background: url(/img/download-img-appstore.png) no-repeat;
+  width: 218px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.download-block-btn-googleplay {
+  background: url(/img/download-img-googleplay.png) no-repeat;
+  width: 240px;
+  height: 70px;
+  margin-left: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 
 @media (min-width: 300px) {
@@ -579,6 +618,31 @@ input[type="checkbox"]:checked ~ .popup {
   padding-bottom: 300px;
   padding-top: 40px;
  }
+ .download-block {
+  flex-direction: column;
+  text-align: center;
+}
+.download-block-title {
+  font-size: 31px;
+}
+.download-block-subtitle {
+  width: 280px;
+  left: 50%;
+  margin-left: -140px;
+  position: relative;
+}
+.download-block-btns {
+  flex-direction: column;
+  margin-top: 36px;
+}
+.download-block-btn-appstore {
+  margin-bottom: 16px;
+}
+.download-block-btn-googleplay {
+  height: 71px;
+  text-align: center;
+  margin-left: 0;
+}
 }
 
 @media (min-width: 576px) { 
@@ -699,9 +763,34 @@ input[type="checkbox"]:checked ~ .popup {
  .future {
   padding-bottom: 450px;
  }
- /* .future-block-title {
-  font-size: 27px;
- } */
+ .download-block {
+  flex-direction: row;
+  text-align: left;
+  position: static;
+}
+ .download-block-title {
+  font-size: 28px;
+ }
+ .download-block-subtitle {
+  font-size: 18px;
+  width: 265px;
+  margin-left: 0;
+  left: 0;
+ }
+ .download-block-btns {
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 15px;
+ }
+ .download-block-btn-appstore {
+  width: 180px;
+  height: 59px;
+}
+.download-block-btn-googleplay {
+  width: 198px;
+  height: 59px;
+}
+
  }
 
 @media (min-width: 768px) { 
@@ -808,12 +897,30 @@ input[type="checkbox"]:checked ~ .popup {
  .powerful-block-title-orange {
   margin-top: 40px;
  }
- /* .future {
-  padding-bottom: 450px;
- } */
  .future-block-title {
   font-size: 38px;
  }
+ .download-block-title {
+  font-size: 30px;
+ }
+ .download-block-subtitle {
+  font-size: 18px;
+  width: 270px;
+ }
+ .download-block-btns {
+  flex-direction: row;
+  justify-content: space-around;
+ }
+ .download-block-btn-appstore {
+  width: 180px;
+  height: 59px;
+  margin-bottom: 0;
+}
+.download-block-btn-googleplay {
+  width: 198px;
+  height: 59px;
+  margin-left: 16px;
+}
  }
 
 @media (min-width: 992px) {  
@@ -921,6 +1028,18 @@ input[type="checkbox"]:checked ~ .popup {
   .future-block-title {
     font-size: 45px;
   }
+  .download-block-subtitle {
+    width: 450px;
+  }
+  .download-block-btn-appstore {
+    width: 180px;
+    height: 59px;
+  }
+  .download-block-btn-googleplay {
+    width: 198px;
+    height: 59px;
+  }
+  
 }
 
 @media (min-width: 1200px) { 
@@ -1008,6 +1127,17 @@ input[type="checkbox"]:checked ~ .popup {
   }
   .powerful-block-title {
     width: 615px;
+  }
+  .download-block-subtitle {
+    width: 600px;
+  }
+  .download-block-btn-appstore {
+    width: 218px;
+    height: 71px;
+  }
+  .download-block-btn-googleplay {
+    width: 240px;
+    height: 72px;
   }
  }
 
