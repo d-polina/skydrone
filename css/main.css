@@ -345,6 +345,46 @@ input[type="checkbox"]:checked ~ .popup {
 .modern-block-comment-double-circle {
   display: flex;
 }
+.review-block-img-1 {
+  background: url(/img/reviews/review-img-1.png) no-repeat;
+  height: 56px;
+  width: 56px;
+}
+.review-block-img-2 {
+  background: url(/img/reviews/review-img-2.png) no-repeat;
+  height: 56px;
+  width: 56px;
+}
+.review-block-img-3 {
+  background: url(/img/reviews/review-img-3.png) no-repeat;
+  height: 56px;
+  width: 56px;
+}
+.review-blocks {
+  display: flex;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: space-between;
+}
+.review-block-img {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.review-block-name {
+  font-family: roboto-m, sans-serif;
+}
+.review-block-position {
+  font-family: roboto-r, sans-serif;
+}
+.review-block-text {
+  font-family: raleway-r, sans-serif;
+  font-size: 20px;
+  width: 400px;
+  margin-top: 24px;
+}
+
 
 @media (min-width: 300px) {
  .main {
@@ -467,6 +507,18 @@ input[type="checkbox"]:checked ~ .popup {
  .modern-block-comment-circle-second {
   margin-left: 0;
  }
+ .review-blocks {
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 50px;
+ }
+ .review-block-text {
+  width: 280px;
+  padding-bottom: 70px;
+  left: 50%;
+  margin-left: -140px;
+  position: relative;
+ }
 }
 
 @media (min-width: 576px) { 
@@ -551,6 +603,18 @@ input[type="checkbox"]:checked ~ .popup {
  }
  .modern-block-comment-circle-second {
   margin-left: 0;
+ }
+ .review-blocks {
+  flex-direction: column;
+  padding-top: 0px;
+  padding-bottom: 50px;
+ }
+ .review-block-text {
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  position: relative;
+  padding-bottom: 70px;
  }
  }
 
@@ -637,6 +701,11 @@ input[type="checkbox"]:checked ~ .popup {
   font-size: 16px;
   width: 280px;
  }
+ .review-blocks {
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 50px;
+ }
  }
 
 @media (min-width: 992px) {  
@@ -701,6 +770,20 @@ input[type="checkbox"]:checked ~ .popup {
  .modern {
   padding-top: 130px;
  }
+ .review-block-text {
+  width: 250px;
+  font-size: 16px;
+ }
+ .review-blocks {
+  padding-top: 30px;
+ }
+ .review-blocks {
+  flex-direction: row;
+ }
+ .review-block-text {
+  margin-left: 0px;
+  position: static;
+ }
 }
 
 @media (min-width: 1200px) { 
@@ -754,6 +837,16 @@ input[type="checkbox"]:checked ~ .popup {
  }
  .modern-block-comment-first {
   margin-left: 0;
+ }
+ .review-blocks {
+  justify-content: space-around;
+ }
+ .review-blocks {
+  padding-top: 100px;
+ }
+ .review-block-text {
+  width: 380px;
+  font-size: 18px;
  }
  }
 
