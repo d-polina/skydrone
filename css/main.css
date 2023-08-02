@@ -1,19 +1,19 @@
 
 @font-face {
  font-family: roboto-m;
- src: url(/fonts/Roboto-Medium.ttf);
+ src: url(/skydrone/fonts/Roboto-Medium.ttf);
 }
 @font-face {
  font-family: roboto-r;
- src: url(/fonts/Roboto-Regular.ttf);
+ src: url(/skydrone/fonts/Roboto-Regular.ttf);
 }
 @font-face {
  font-family: raleway-b;
- src: url(/fonts/Raleway-Bold.ttf);
+ src: url(/skydrone/fonts/Raleway-Bold.ttf);
 }
 @font-face {
  font-family: raleway-r;
- src: url(/fonts/Raleway-Regular.ttf);
+ src: url(/skydrone/fonts/Raleway-Regular.ttf);
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 }
 
 .main {
- background: url(/img/main-bg-drone.png) no-repeat;
+ background: url(/skydrone/img/main-bg-drone.png) no-repeat;
  background-position: 10% 45%;
  padding-bottom: 240px;
  z-index: -5;
@@ -64,7 +64,7 @@ body {
 .logo-img {
  height: 22px;
  width: 22px;
- background: url(/img/logo-img.png);
+ background: url(/skydrone/img/logo-img.png);
 }
 .logo-text {
  font-size: 30px;
@@ -230,37 +230,37 @@ input[type="checkbox"]:checked ~ .popup {
   margin-bottom: 75px;
 }
 .companies-row-img-remix {
-  background: url(/img/companies/remix.png) no-repeat;
+  background: url(/skydrone/img/companies/remix.png) no-repeat;
   height: 37px;
   width: 147px;
 }
 .companies-row-img-stencil {
-  background: url(/img/companies/stencil.png) no-repeat;
+  background: url(/skydrone/img/companies/stencil.png) no-repeat;
   height: 38px;
   width: 185px;
 }
 .companies-row-img-mparticle {
-  background: url(/img/companies/mparticle.png) no-repeat;
+  background: url(/skydrone/img/companies/mparticle.png) no-repeat;
   height: 40px;
   width: 185px;
 }
 .companies-row-img-shippable {
-  background: url(/img/companies/shippable.png) no-repeat;
+  background: url(/skydrone/img/companies/shippable.png) no-repeat;
   height: 43px;
   width: 185px;
 }
 .companies-row-img-atom {
-  background: url(/img/companies/atom.png) no-repeat;
+  background: url(/skydrone/img/companies/atom.png) no-repeat;
   height: 40px;
   width: 185px;
 }
 .companies-row-img-terraform {
-  background: url(/img/companies/terraform.png) no-repeat;
+  background: url(/skydrone/img/companies/terraform.png) no-repeat;
   height: 45px;
   width: 185px;
 }
 .companies-row-img-rackspace {
-  background: url(/img/companies/rackspace.png) no-repeat;
+  background: url(/skydrone/img/companies/rackspace.png) no-repeat;
   height: 37px;
   width: 185px;
 }
@@ -290,7 +290,7 @@ input[type="checkbox"]:checked ~ .popup {
   display: flex;
 }
 .modern-img {
-  background: url(/img/modern-img.png) no-repeat;
+  background: url(/skydrone/img/modern-img.png) no-repeat;
   width: 616px;
   height: 640px;
   object-fit: cover;
@@ -345,17 +345,17 @@ input[type="checkbox"]:checked ~ .popup {
   display: flex;
 }
 .review-block-img-1 {
-  background: url(/img/reviews/review-img-1.png) no-repeat;
+  background: url(/skydrone/img/reviews/review-img-1.png) no-repeat;
   height: 56px;
   width: 56px;
 }
 .review-block-img-2 {
-  background: url(/img/reviews/review-img-2.png) no-repeat;
+  background: url(/skydrone/img/reviews/review-img-2.png) no-repeat;
   height: 56px;
   width: 56px;
 }
 .review-block-img-3 {
-  background: url(/img/reviews/review-img-3.png) no-repeat;
+  background: url(/skydrone/img/reviews/review-img-3.png) no-repeat;
   height: 56px;
   width: 56px;
 }
@@ -384,7 +384,7 @@ input[type="checkbox"]:checked ~ .popup {
   margin-top: 24px;
 }
 .powerful-img {
-  background: url(/img/powerful-img.png) no-repeat;
+  background: url(/skydrone/img/powerful-img.png) no-repeat;
 }
 .powerful-block-comment-three-circle {
   display: flex;
@@ -396,7 +396,7 @@ input[type="checkbox"]:checked ~ .popup {
   display: flex;
 }
 .future {
-  background: url(/img/future-bg.png) no-repeat;
+  background: url(/skydrone/img/future-bg.png) no-repeat;
   background-position: 50% 100%;
   padding-bottom: 490px;
   padding-top: 60px;
@@ -445,7 +445,7 @@ input[type="checkbox"]:checked ~ .popup {
   align-items: center;
 }
 .download-block-btn-appstore {
-  background: url(/img/download-img-appstore.png) no-repeat;
+  background: url(/skydrone/img/download-img-appstore.png) no-repeat;
   width: 218px;
   height: 70px;
   background-repeat: no-repeat;
@@ -453,7 +453,7 @@ input[type="checkbox"]:checked ~ .popup {
   background-position: center;
 }
 .download-block-btn-googleplay {
-  background: url(/img/download-img-googleplay.png) no-repeat;
+  background: url(/skydrone/img/download-img-googleplay.png) no-repeat;
   width: 240px;
   height: 70px;
   margin-left: 16px;
@@ -484,18 +484,18 @@ input[type="checkbox"]:checked ~ .popup {
   margin-bottom: 140px;
 }
 .contacts-block-email-icon {
-  background: url(/img/icons/Email.png) no-repeat;
+  background: url(/skydrone/img/icons/Email.png) no-repeat;
   height: 32px;
   width: 32px;
   margin-top: 25px;
 }
 .contacts-block-phone-icon {
-  background: url(/img/icons/Phone.png) no-repeat;
+  background: url(/skydrone/img/icons/Phone.png) no-repeat;
   height: 32px;
   width: 32px;
 }
 .contacts-block-address-icon {
-  background: url(/img/icons/Address.png) no-repeat;
+  background: url(/skydrone/img/icons/Address.png) no-repeat;
   height: 32px;
   width: 32px;
 }
@@ -550,17 +550,17 @@ input[type="checkbox"]:checked ~ .popup {
   color: #C4730A;
 }
 .footer-media-inst {
-  background: url(/img/media-inst.png) no-repeat;
+  background: url(/skydrone/img/media-inst.png) no-repeat;
   height: 48px;
   width: 48px;
 }
 .footer-media-youtube {
-  background: url(/img/media-youtube.png) no-repeat;
+  background: url(/skydrone/img/media-youtube.png) no-repeat;
   height: 48px;
   width: 48px;
 }
 .footer-media-facebook {
-  background: url(/img/media-facebook.png) no-repeat;
+  background: url(/skydrone/img/media-facebook.png) no-repeat;
   height: 48px;
   width: 48px;
 }
@@ -632,7 +632,7 @@ input[type="checkbox"]:checked ~ .popup {
  .logo-img {
   height: 14px;
   width: 14px;
-  background: url(/img/logo-img-small.png);
+  background: url(/skydrone/img/logo-img-small.png);
  }
  .logo-text {
   font-size: 18px;
@@ -851,7 +851,7 @@ input[type="checkbox"]:checked ~ .popup {
  .logo-img {
   height: 22px;
   width: 22px;
-  background: url(/img/logo-img.png) no-repeat;
+  background: url(/skydrone/img/logo-img.png) no-repeat;
  }
  .logo-text {
   font-size: 30px;
