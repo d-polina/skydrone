@@ -726,7 +726,7 @@ input[type="checkbox"]:checked ~ .popup {
   margin-left: 0;
  }
  .powerful-img {
-  background: url(/img/powerful-img-small.png) no-repeat;
+  background: url(/skydrone/img/powerful-img-small.png) no-repeat;
   margin-bottom: 60px;
  }
  .future-block-title {
